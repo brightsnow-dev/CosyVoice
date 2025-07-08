@@ -1,6 +1,5 @@
 FROM nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
 
-
 ARG VENV_NAME="cosyvoice"
 ENV VENV=$VENV_NAME
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
